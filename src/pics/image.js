@@ -17,7 +17,9 @@ import download from './download&share.svg'
 import generate from './generate-template.svg'
 import logo from './logo.svg'
 import recognization from './recognition.svg'
+import hamburger from './hamburger.svg'
 const Image ={
-boost,certificate1,certificate2,certificate3,certificate4,certificate5,certificate6,certificate7,certificateWithLaptop,choose,design,facebook,instagram,linkedin,X,download,generate,logo,recognization
+boost,certificate1,certificate2,certificate3,certificate4,certificate5,certificate6,certificate7,certificateWithLaptop,choose,design,facebook,instagram,linkedin,X,download,generate,logo,recognization,
+hamburger
 }
 export default Image
