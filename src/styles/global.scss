@@ -2,10 +2,12 @@ body{
     background-color: rgba(255, 255, 255, 1);
     margin: 0%;
     padding: 0%;
-    font-family: Inter Display;
-
+   font-family: 'Inter Tight'
+   
 }
-$maincolor:rgba(80, 72, 239, 1);
+a{
+    text-decoration: none;
+}
 $greybackground: rgba(229, 229, 229, 1);
 $blackbackground: rgba(60, 65, 76, 1);
 $goldbackground: rgba(242, 169, 90, 1);

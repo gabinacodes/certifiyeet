@@ -10,21 +10,21 @@ function Header() {
             <img src={Image.logo}   alt="logo"/>
         </div>
         <nav className='nav'> 
-            <a>Home</a>
-            <a className='dropdown'>Resources<span className='upArrow'>&#9660;</span><span className='sideArrow'> &#x25B6;</span></a>
+            <a href='#.com'>Home</a>
+            <a  href='#.com'className='dropdown'>Resources<span className='upArrow'>&#9660;</span><span className='sideArrow'> &#x25B6;</span></a>
           
-            <a>Pricing</a>
-            <a>Contact us</a>
-            <a>Sign in</a>
-            <a>Sign up for free</a>
+            <a href='#.com'>Pricing</a>
+            <a href='#.com'>Contact us</a>
+            <a href='#.com'>Sign in</a>
+            <a href='#.com'>Sign up for free</a>
         </nav>
      <div className='drop'>
      <div className='resources'>
                 
-                <a>Certificate Design</a>
-                <a>Bulk Certificate Generate</a>
-                <a>AI Genration</a>
-                <a>Verify Certificate</a>
+                <a href='#.com'>Certificate Design</a>
+                <a  href='#.com'>Bulk Certificate Generate</a>
+                <a href='#.com'>AI Genration</a>
+                <a href='#.com'>Verify Certificate</a>
             
         </div>
      </div>

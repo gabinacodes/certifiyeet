@@ -1,0 +1,116 @@
+body {
+  background-color: rgb(255, 255, 255);
+  margin: 0%;
+  padding: 0%;
+  font-family: "Inter Tight";
+}
+
+a {
+  text-decoration: none;
+}
+
+.footer {
+  background-color: rgb(80, 72, 239);
+  padding: 3%;
+}
+
+.topFooter {
+  display: flex;
+  justify-content: space-evenly;
+  color: white;
+}
+
+h6 {
+  font-size: 20px;
+  margin-bottom: -3px;
+  font-weight: 500;
+}
+
+.news {
+  background-color: rgb(121, 81, 255);
+  padding: 23px;
+  border-radius: 2px;
+}
+.news h6 {
+  font-weight: 300;
+  margin-bottom: 23px;
+}
+.news p {
+  font-size: 9px;
+  color: rgb(255, 255, 255);
+}
+
+.inputText {
+  color: white;
+}
+.inputText input {
+  width: 166px;
+  border: none;
+  height: 27px;
+  border-radius: 3px 0 0 3px;
+  padding: 3px 8px;
+}
+.inputText button {
+  background-color: rgb(0, 129, 254);
+  width: 26px;
+  padding: 1px;
+  height: 34px;
+  border: none;
+  border-radius: 0 6px 6px 0;
+  color: white;
+  font-size: 16px;
+  font-weight: 900;
+}
+
+.line {
+  border-bottom: 1px solid rgb(255, 255, 255);
+  width: 86%;
+  padding: 21px 5%;
+}
+
+.ending {
+  display: flex;
+  justify-content: space-between;
+  margin: 23px 2px;
+  color: white;
+}
+
+.CompanyName {
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.socials {
+  margin: 38px 0;
+}
+.socials a {
+  margin: 2px 7px;
+}
+
+.terms {
+  display: inline-flex;
+  justify-items: center;
+  margin: 38px 0;
+}
+.terms p {
+  margin: 2px 7px;
+}
+
+@media screen and (max-width: 850px) {
+  * {
+    text-align: center;
+  }
+  a {
+    align-items: center;
+  }
+  .topFooter {
+    flex-direction: column;
+  }
+  .ending {
+    flex-direction: column;
+  }
+  .terms {
+    display: flex;
+    justify-content: center;
+  }
+}/*# sourceMappingURL=footer.css.map */

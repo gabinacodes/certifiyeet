@@ -18,8 +18,10 @@ import generate from './generate-template.svg'
 import logo from './logo.svg'
 import recognization from './recognition.svg'
 import hamburger from './hamburger.svg'
+import arrow from './arrows-down-top-move-1.svg'
+import ellipse from './Ellipse.png'
 const Image ={
 boost,certificate1,certificate2,certificate3,certificate4,certificate5,certificate6,certificate7,certificateWithLaptop,choose,design,facebook,instagram,linkedin,X,download,generate,logo,recognization,
-hamburger
+hamburger,arrow,ellipse
 }
 export default Image
