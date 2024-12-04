@@ -1,7 +1,7 @@
 import React from 'react'
 import '../styles/home.css'
 import Image from '../pics/image'
-import certifcate from '../Data/certificate'
+
 function home() {
   return (
     
@@ -104,18 +104,7 @@ function home() {
             <img src={Image.certificate7} alt='certificate'/>
           </span>
         </div>
-        <div>
-        {
-            about.map((e)=>{
-              return(
-               <div className='div13' key={e.img}>
-                 <img src={e.img} alt = "logo"/>
-              
-               </div>
-              )
-            })
-          }
-        </div>
+ 
         <div className='fallen'>
           <h1>Fallen in love yet?</h1>
           <button>Sign up for free</button>
