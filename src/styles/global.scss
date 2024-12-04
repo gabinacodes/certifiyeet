@@ -13,4 +13,23 @@ $blackbackground: rgba(60, 65, 76, 1);
 $goldbackground: rgba(242, 169, 90, 1);
 $bluebackground: rgba(0, 129, 254, 1);
 $whitebackground: rgba(255, 255, 255, 1);
-$purplebackground : rgba(80, 72, 239, 1)
+$purplebackground : rgba(80, 72, 239, 1);
+
+@mixin button{
+    background-color: $purplebackground;
+    border: 1px solid $purplebackground;
+    color: $whitebackground;
+    border-radius: 12px;
+    padding: 12px;
+    
+};
+
+@mixin paragraph{
+    color: rgb(60, 65, 76);
+    line-height: 29px;
+    
+}
+@mixin heading{
+    color: $purplebackground;
+
+}

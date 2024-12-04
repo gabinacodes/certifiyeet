@@ -6,7 +6,7 @@ import certificate4 from './certificate4.svg'
 import certificate5 from './certificate5.png'
 import certificate6 from './certificate6.svg'
 import certificate7 from './certificate7.svg'
-import certificateWithLaptop from './certificates-with-laptop.png'
+import certificateWithLaptop from './certificates-with-laptop.svg'
 import choose from './choose-template.svg'
 import design from './design-template.svg'
 import facebook from './devicon_facebook.svg'
@@ -20,8 +20,9 @@ import recognization from './recognition.svg'
 import hamburger from './hamburger.svg'
 import arrow from './arrows-down-top-move-1.svg'
 import ellipse from './Ellipse.png'
+import build from './build.svg'
 const Image ={
 boost,certificate1,certificate2,certificate3,certificate4,certificate5,certificate6,certificate7,certificateWithLaptop,choose,design,facebook,instagram,linkedin,X,download,generate,logo,recognization,
-hamburger,arrow,ellipse
+hamburger,arrow,ellipse,build
 }
 export default Image

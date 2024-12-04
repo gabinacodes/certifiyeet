@@ -1,6 +1,7 @@
 import React from 'react'
 import Image from '../pics/image'
 import '../styles/modules/header.css'
+import 
   
 
 function Header() {
@@ -36,6 +37,9 @@ function Header() {
             </div>
         </div>
     </div>
+    {
+    
+    }
   )
 }
 
